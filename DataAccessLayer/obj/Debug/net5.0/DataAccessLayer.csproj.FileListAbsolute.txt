@@ -1,0 +1,15 @@
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\bin\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
