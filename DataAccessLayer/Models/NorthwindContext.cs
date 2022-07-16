@@ -6,6 +6,15 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace DataAccessLayer.Models
 {
+
+    /// <summary>
+    /// 
+    /// DbContext bir classtır ve Entity Framework'un olmazsa olmazıdır. DBContet veritabanımızla uygulamamız arasında 
+    /// sorgulama, güncelleme, silme gibi işlemleri yapmamız için olanak sağlar. 
+    /// Yani veritabanı içinde yer alan verilerimizle alakalı olarak her türlü süreçte iletişimimizi sağlayan bir classtır.
+    /// 
+    /// </summary>
+
     public partial class NorthwindContext : DbContext
     {
         public NorthwindContext()

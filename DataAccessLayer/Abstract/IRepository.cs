@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-    public  interface IRepository<T>
+
+    //database crud işlemleri ve ekstra methodların olusturuşduğu Interface
+    //ilişkilerin başladığı class
+    //Genericrepository De bu boş  methodların imzası atılacaktır
+
+    public interface IRepository<T>
     {
         List<T> GetAllList();
         T GetById(int id);

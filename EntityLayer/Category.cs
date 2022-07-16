@@ -5,7 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace EntityLayer
-{
+{ /// <summary>
+  ///  databasedeki sutunlarımız modellendirildi
+  /// </summary>
+
     public class Category
     {
         public int CategoryId { get; set; }

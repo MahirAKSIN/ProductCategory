@@ -8,6 +8,11 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
+    //GenericRepository classı IRepositorydeki bos olusturulan methodları imzasını atıldı.
+    //temel sınıf kısıtlaması, derleyiciye yalnızca bu türden veya bu türden türetilen nesnelerin tür bağımsız değişkenleri olarak kullanılacağını söyler
+    //bunun için 'where TEntity : class' kullandık
+
+
     public class GenericRepository<T> : IRepository<T> where T : class
     {
         public List<T> GetAllList()

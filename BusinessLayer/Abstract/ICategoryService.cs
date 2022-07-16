@@ -10,5 +10,8 @@ namespace BusinessLayer.Abstract
 {
     public interface ICategoryService:IGenericService<Kategoriler>
     {
+        //Sunum katmanından gelen bilgileri gerekli koşullara göre işleyerek veya denetleyerek
+        //veri katmanının sağladığı metotları kullanarak veritabanına gönderen aynı şekilde veritabanından da bilgileri alarak gerekli
+        //süreçlerden geçirip presentation katmanına gönderen katman
     }
 }

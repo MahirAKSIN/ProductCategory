@@ -9,6 +9,13 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
+
+    /// <summary>
+    /// Bu classta IProductService'i implement yaparak imzasız olana 
+    /// methodları içine linq sorguları ile imzalanır. 
+    /// 
+    /// </summary>
+
     public class ProductManager : IProductService
     {
 

@@ -10,8 +10,16 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
+
+    /// <summary>
+    /// Bu classta ICategoryService'i implement yaparak imzasız olana 
+    /// methodları içine linq sorguları ile imzalanır. 
+    /// 
+    /// </summary>
+
     public class CategoryManager : ICategoryService
     {
+
 
         EfCoreCategoryRepository efCoreCategory;
 

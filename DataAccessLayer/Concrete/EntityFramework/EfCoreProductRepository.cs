@@ -9,7 +9,11 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-   public class EfCoreProductRepository:GenericRepository<Urunler>,IProductDAL
+    //EfCoreProductRepository class EfCoreRpository tarafından imzası atılan methodları implement edildi
+    //Eğer IRepository ve GenericRepository olmayan özel methodlar varsa EfCoreGenresRepository Interface yazıldığı için 
+    //onuda implement ettik
+
+    public class EfCoreProductRepository:GenericRepository<Urunler>,IProductDAL
     {
     }
 }

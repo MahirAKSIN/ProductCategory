@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace EntityLayer
 {
+    /// <summary>
+    ///  databasedeki sutunlarımız modellendirildi
+    /// </summary>
     public class Product
     {
 

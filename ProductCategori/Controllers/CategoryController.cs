@@ -17,19 +17,40 @@ namespace ProductCategori.Controllers
         ProductManager productManager = new ProductManager(new EfCoreProductRepository());
 
         NorthwindContext db = new NorthwindContext();
-        public IActionResult Index(int id)
+
+
+        [HttpGet]
+        public IActionResult Index(string cat)
         {
-            var category = categoryManager.TGetById(id);
-            List<SelectListItem> selectListItems = (from i in db.Kategorilers.ToList()
-                                                    select new SelectListItem
-                                                    {
-                                                        Text = i.KategoriAdi,
-                                                        Value = i.KategoriId.ToString()
-                                                    }).ToList();
+            List<SelectListItem> selectListItems = null;
+            if (!string.IsNullOrEmpty(cat))
+            {
+                //var category = categoryManager.TGetById(id);
+             selectListItems = (from i in db.Kategorilers.ToList()
+                                                        select new SelectListItem
+                                                        {
+                                                            Text = i.KategoriAdi,
+                                                            Value = i.KategoriId.ToString()
+                                                        }).Where(w=> w.Value == cat).ToList();
+            }
+            else
+            {
+                //var category = categoryManager.TGetById(id);
+             selectListItems = (from i in db.Kategorilers.ToList()
+                                                        select new SelectListItem
+                                                        {
+                                                            Text = i.KategoriAdi,
+                                                            Value = i.KategoriId.ToString()
+                                                        }).ToList();
+            }
+
+           
             ViewBag.select = selectListItems;
-            return View(category);
+            return View();
 
         }
+             
+
         [HttpGet]
         public IActionResult CategorySel()
         {

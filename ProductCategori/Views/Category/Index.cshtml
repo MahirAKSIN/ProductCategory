@@ -5,8 +5,30 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<script type="text/javascript">
+    function getSelecedCategorie() {
 
+        //alert(document.getElementById('catId').selectedIndex)
+        var data = { obj: document.getElementById('catId').selectedIndex };
+        $.ajax({
+            type: 'post',
+            url: '@Url.Action("Index")',
+            contentType: 'application/x-www-form-urlencode', // when we use .serialize() this generates the data in query string format. this needs the default contentType (default content type is: contentType: 'application/x-www-form-urlencoded; charset=UTF-8') so it is optional, you can remove it
+            data: data,
+            dataType:"text",
+            success: function (result) {
+                alert('Successfully received Data ');
+                console.log(result);
+            },
+            error: function () {
+                alert('Failed to receive the Data');
+                console.log('Failed ');
+            }
+        })
 
+    }
+
+</script>
 
 <h1 class="d-flex justify-content-center align-content-center align-items-center ">Category Page</h1>
 <br>
@@ -17,14 +39,14 @@
 </div>
 <br />
 <br />
-<div id="cmbId">
-    @using (@Html.BeginForm("CategorySelect", "Category", FormMethod.Post))
-    {
 
-        @Html.DropDownListFor(x => x.KategoriAdi, (List<SelectListItem>)ViewBag.select, new { @class = "form-control" })
-    }
+@using (@Html.BeginForm("CategorySelect", "Category", FormMethod.Post))
+{
 
-</div>
+    @Html.DropDownListFor(x => x.KategoriAdi, (List<SelectListItem>)ViewBag.select, new { @class = "form-control", id = "catId", onchange = "getSelecedCategorie()" })
+}
+
+
 
 <br />
 <br />

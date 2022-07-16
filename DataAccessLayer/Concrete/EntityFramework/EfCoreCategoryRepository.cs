@@ -9,7 +9,11 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-   public class EfCoreCategoryRepository:GenericRepository<Kategoriler>,ICategoryDAL
+    //EfCoreCategoryRepository class EfCoreRpository tarafından imzası atılan methodları implement edildi
+    //Eğer IRepository ve GenericRepository olmayan özel methodlar varsa EfCoreCategoryRepository Interface yazıldığı için 
+    //onuda implement ettik
+
+    public class EfCoreCategoryRepository:GenericRepository<Kategoriler>,ICategoryDAL
     {
     }
 }

@@ -8,7 +8,14 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Abstract
 {
-  public  interface ICategoryDAL:IRepository<Kategoriler>
+    /// <summary>
+    /// Bu interfacede  ICategoryDAL özel methodlar yazılabilir.
+    /// Diğer methodlar solid kurallarını göz önüne alarak IRepository imzasız bir şekilde yazıldı.
+    /// Imzasız methodlar GenericRepositoryde imzalanacaktır
+    /// </summary>
+
+
+    public interface ICategoryDAL:IRepository<Kategoriler>
     {
     }
 }
