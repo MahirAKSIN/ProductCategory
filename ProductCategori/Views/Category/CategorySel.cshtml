@@ -1,0 +1,12 @@
+﻿@model DataAccessLayer.Models.Kategoriler
+
+@{
+    ViewData["Title"] = "CategorySel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (@Html.BeginForm("CategorySelect", "Category", FormMethod.Post))
+{
+    <label>Category select</label>
+    @Html.DropDownListFor(x => x.KategoriAdi, (List<SelectListItem>)ViewBag.select, new { @class = "form-control" })
+}

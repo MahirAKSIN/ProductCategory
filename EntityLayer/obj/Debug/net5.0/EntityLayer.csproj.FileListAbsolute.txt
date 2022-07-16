@@ -1,6 +1,5 @@
 C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
 C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
 C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
 C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,3 +9,4 @@ C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\obj\Debug\ne
 C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll

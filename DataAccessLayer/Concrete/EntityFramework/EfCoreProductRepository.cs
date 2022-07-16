@@ -1,4 +1,5 @@
 ﻿using DataAccessLayer.Abstract;
+using DataAccessLayer.Models;
 using EntityLayer;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Concrete.EntityFramework
 {
-   public class EfCoreProductRepository:GenericRepository<Product>,IProductDAL
+   public class EfCoreProductRepository:GenericRepository<Urunler>,IProductDAL
     {
     }
 }
