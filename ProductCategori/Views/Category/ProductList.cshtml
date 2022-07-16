@@ -1,0 +1,49 @@
+﻿@using DataAccessLayer.Models
+@model List<Urunler>
+
+@{
+    ViewData["Title"] = "ProductList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="d-flex justify-content-center align-content-center align-items-center ">Product List</h1>
+
+<div class="row">
+
+    <div class="col-md-12">
+        <div class="d-flex justify-content-center align-content-center align-items-center">
+            <table class="table table-bordered table-hover w-50 table-white text-dark my-3">
+                <thead>
+                    <tr>
+                        <th>Product ID</th>
+                        <th>Product Name</th>
+                        <th>Product Price</th>
+                        <th>Total</th>
+                        <th>Total price</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.UrunId</td>
+                            <td>@product.UrunAdi</td>
+                            <td>@product.BirimFiyati</td>
+                            <td >@product.BirimdekiMiktar</td>
+                            <td>@product.BirimFiyati</td>
+
+                            <td><a href="#" class="btn btn-primary btn-lg">Details</a></td>
+                            <td><a href="/category/Index" class="btn btn-success btn-lg">Back</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+</div>
+
+
+

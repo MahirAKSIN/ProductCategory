@@ -1,0 +1,49 @@
+﻿@using DataAccessLayer.Models
+@model List<Kategoriler>
+@{
+    ViewData["Title"] = "CategorySel";
+}
+
+
+<h1 class="d-flex justify-content-center align-content-center align-items-center">Category Details""</h1>
+
+<div class="row">
+
+        <div class="col-md-12">
+            <table class="table table-bordered mt-2" id="tblId">
+                <thead>
+                    <tr>
+                        <th width="30">ID</th>
+                        <th width="100">Category Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Count > 0)
+                    {
+                        @foreach (var cat in Model)
+                        {
+                            <tr>
+                                <td>@cat.KategoriId</td>
+                                <td>@cat.KategoriAdi</td>
+
+                                <td>@cat.Tanimi</td>
+                                <td>
+                                    <a href="/Category/ProductList/@cat.KategoriId" class="btn btn-sm btn-primary mr-1">Details</a>
+                                    <form action="/Admin/ProductDelete" method="post" class="d-inline">
+                                        <input type="hidden" name="KategoriId" value="@cat.KategoriId" />
+                                        <button href="#" type="submit" class="btn btn-sm btn-success">Update</button>
+                                        <button href="#" type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        //ÜRün olmadığında yapılacak işlem
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>

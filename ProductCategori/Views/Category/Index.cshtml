@@ -1,11 +1,12 @@
 ﻿
-@using DataAccessLayer.Models
-@model List<Kategoriler>
+@model DataAccessLayer.Models.Kategoriler
 
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+
 
 <h1 class="d-flex justify-content-center align-content-center align-items-center ">Category Page</h1>
 <br>
@@ -14,48 +15,22 @@
 <div class="d-flex justify-content-center align-content-center align-items-center ">
     <input type="button" name="name" class="d-flex justify-content-center align-content-center align-items-center btn btn-lg btn-info " value="Activate to select category" />
 </div>
+<br />
+<br />
+<div id="cmbId">
+    @using (@Html.BeginForm("CategorySelect", "Category", FormMethod.Post))
+    {
 
+        @Html.DropDownListFor(x => x.KategoriAdi, (List<SelectListItem>)ViewBag.select, new { @class = "form-control" })
+    }
+
+</div>
+
+<br />
+<br />
+
+@await Component.InvokeAsync("CmbCategory")
 
 
 <hr />
 <br />
-<div class="row">
-
-    <div class="col-md-12">
-        <table class="table table-bordered mt-2">
-            <thead>
-                <tr>
-                    <th width="30">ID</th>
-                    <th width="100">Category Name</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                @if (Model.Count > 0)
-                {
-                    @foreach (var cat in Model)
-                    {
-                        <tr>
-                            <td>@cat.KategoriId</td>
-                            <td>@cat.KategoriAdi</td>
-
-                            <td>@cat.Tanimi</td>
-                            <td>
-                                <a href="/admin/products/@cat.KategoriId" class="btn btn-sm btn-primary mr-1">Details</a>
-                                <form action="/Admin/ProductDelete" method="post" class="d-inline">
-                                    <input type="hidden" name="KategoriId" value="@cat.KategoriId" />
-                                    <button type="submit" class="btn btn-sm btn-success">Update</button>
-                                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
-                                </form>
-                            </td>
-                        </tr>
-                    }
-                }
-                else
-                {
-                    //ÜRün olmadığında yapılacak işlem
-                }
-            </tbody>
-        </table>
-    </div>
-</div>
