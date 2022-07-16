@@ -1,0 +1,15 @@
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\ProductCategory\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
